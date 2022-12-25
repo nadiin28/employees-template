@@ -44,6 +44,9 @@ class App extends Component {
       return {
         data: newArr,
       };
+
+      // data.push(newItem);
+      // return { data }; //TODO: почему так нельзя делать?
     });
   };
 
